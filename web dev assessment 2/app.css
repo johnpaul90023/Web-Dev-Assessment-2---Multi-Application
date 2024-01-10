@@ -1,0 +1,1266 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Koulen&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  background: rgb(184, 184, 184);
+  position: fixed;
+}
+
+.nav-link > a {
+  float: left;
+  display: block;
+  color: #1c1c1c;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+#nike{
+  height: 40px;
+  width: 70px;
+  padding-left: 1230px;
+  padding-top: 7px;
+  float: right;
+  align-items: right;
+  display: flex;
+}
+
+.section {
+  font-size: 3rem;
+}
+
+.container{
+  width: 1680px;
+}
+
+h1{
+  font-size: 20px;
+  margin: 0%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #1c1c1ca4;
+  text-align: center;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+#videobox{
+  width: 1400px;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  margin-left: 140px;
+  object-fit: cover;
+  border: 2px;
+  border-radius: 25px;
+}
+
+#sale{
+  width: 1680px;
+  height: 200px;
+  padding-top: 80px;
+  object-fit: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, 300%);
+  color: rgb(255, 255, 255);
+  font-family: 'Koulen', sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(30%, 370%);
+  color: rgb(255, 255, 255);
+  font-family: 'Koulen', sans-serif;
+}
+
+.center2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  transform: translate(40%, 700%);
+  color: rgb(255, 255, 255);
+}
+
+#shop{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 30px;
+}
+
+#Featured{
+  height: 3000px;
+}
+
+.shoebox{
+  width: 1680px;
+  height: 100px;
+  padding-top: 100px;
+  margin-top: 0%;
+  display: flex;
+  flex-flow: row;  
+  flex-wrap: wrap;
+  justify-content: right;
+  margin-bottom: 450px;
+  margin-left: -30px;
+}
+
+.box1{
+  width: 30%;
+  height: 600px;
+}
+
+.box2{
+  width: 30%;
+  height: 600px;
+}
+
+.box3{
+  width: 30%;
+  height: 600px;
+}
+
+.box4{
+  width: 30%;
+  height: 600px;
+}
+
+#shoe1{
+  width:400px;
+  height:400px;
+  border-radius: 25px;
+  border: 2px;
+  background-color: rgb(59, 59, 59);
+}
+
+#shoe2{
+  width:400px;
+  height:400px;
+  border-radius: 25px;
+  border: 2px;
+  background-color: rgb(69, 69, 69);
+}
+
+#shoe3{
+  width:400px;
+  height:400px;
+  border-radius: 25px;
+  border: 2px;
+  background-color: rgb(92, 91, 91);
+}
+
+h2{
+  font-size: 30px;
+  color:#1c1c1c;
+  margin: 0%;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+h3{
+  font-size: 30px;
+  color:#464646c7;
+  margin: 0%;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+#purchase{
+  background-color: rgb(59, 59, 59);
+  color: white;
+  padding-right: 40px;
+  border: 2px;
+  border-radius: 25px;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-top: 50px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.see_button{
+  width: 1680px;
+  display: flex;
+  justify-content: center;;
+  padding-top: 800px;
+}
+
+.see1_button{
+  width: 1680px;
+  display: flex;
+  justify-content: center;;
+  padding-top: 1350px;
+}
+
+#see_more{
+  background-color: rgb(59, 59, 59);
+  color: white;
+  padding-right: 50px;
+  border: 2px;
+  border-radius: 25px;
+  font-size: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+h4{
+  text-align: center;
+  font-family: 'Koulen', sans-serif;
+  font-size: 70px;
+  letter-spacing: 5px;
+  padding-top: 50px;
+  background-color: rgb(39, 39, 39);
+  color: rgb(233, 233, 233);
+  padding-bottom: 50px;
+}
+
+#Men{
+  height: 1900px;
+  margin:0%;
+}
+
+#Women{
+  height: 1900px;
+  
+}
+
+#Kids{
+  height: 1900px;
+}
+
+@media only screen and (max-width: 1550px) and (min-width: 1024px) {
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5%, 300%);
+    color: rgb(255, 255, 255);
+    font-family: 'Koulen', sans-serif;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, 370%);
+    color: rgb(255, 255, 255);
+    font-family: 'Koulen', sans-serif;
+  }
+  
+  .center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(40%, 700%);
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media only screen and (max-width: 769px) and (min-width: 420px) {
+  .nav-link > a {
+    float: left;
+    display: block;
+    color: #1c1c1c;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background: rgb(184, 184, 184);
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #nike{
+    height: 70px;
+    width: 130px;
+    padding-left: 935px;
+    padding-top: 20px;
+    float: right;
+    align-items: right;
+    display: flex;
+  }
+
+  h1{
+    font-size: 40px;
+    margin: 0%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    color: #1c1c1ca4;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  #videobox{
+    width: 1400px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    margin-left: 140px;
+    object-fit: cover;
+    border: 2px;
+    border-radius: 25px;
+  }
+
+  #sale{
+    width: 1680px;
+    height: 300px;
+    padding-top: 80px;
+    object-fit: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(80%, 700%);
+    color: rgb(255, 255, 255);
+    font-family: 'Koulen', sans-serif;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(170%, 780%);
+    color: rgb(255, 255, 255);
+    font-family: 'Koulen', sans-serif;
+  }
+  
+  .center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(190%, 1400%);
+    color: rgb(255, 255, 255);
+  }
+
+  .shoebox{
+    width: 1680px;
+    height: 100px;
+    padding-top: 100px;
+    margin-top: 0%;
+    display: flex;
+    flex-flow: row;  
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-bottom: 450px;
+    margin-left: -30px;
+  }
+
+  .box1{
+    width: 30%;
+    height: 700px;
+  }
+  
+  .box2{
+    width: 30%;
+    height: 700px;
+  }
+  
+  .box3{
+    width: 30%;
+    height: 700px;
+  }
+
+  .box4{
+    width: 30%;
+    height: 700px;
+  }
+
+  #shoe1{
+    width:400px;
+    height:400px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(59, 59, 59);
+  }
+  
+  #shoe2{
+    width:400px;
+    height:400px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(69, 69, 69);
+  }
+  
+  #shoe3{
+    width:400px;
+    height:400px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(92, 91, 91);
+  }
+
+  h2{
+    font-size: 40px;
+    color:#1c1c1c;
+    margin: 0%;
+    font-family: 'Inter Tight', sans-serif;
+  }
+  
+  h3{
+    font-size: 40px;
+    color:#464646c7;
+    margin: 0%;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  #purchase{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-right: 40px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 50px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  #see_more{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-right: 50px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  .see_button{
+    width: 1680px;
+    display: flex;
+    justify-content: center;;
+    padding-top: 900px;
+  }
+  
+  .see1_button{
+    width: 1680px;
+    display: flex;
+    justify-content: center;;
+    padding-top: 1600px;
+  }
+
+  #Featured{
+    height: 3700px;
+  }
+
+  #Men{
+    height: 2000px;
+    margin:0%;
+    padding-top: 40px;
+  }
+  
+  #Women{
+    height: 2000px;
+    padding-top: 40px;
+    
+  }
+  
+  #Kids{
+    height: 2000px;
+    padding-top: 40px;
+  }
+
+  h4{
+    text-align: center;
+    font-family: 'Koulen', sans-serif;
+    font-size: 70px;
+    letter-spacing: 5px;
+    padding-top: 50px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(233, 233, 233);
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 412px) and (min-width: 380px) {
+  .container{
+    width: 1680px;
+  }
+  
+  .nav-link > a {
+    float: left;
+    display: block;
+    color: #1c1c1c;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background: rgb(184, 184, 184);
+    position: fixed;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #nike{
+    height: 100px;
+    width: 160px;
+    padding-left: 650px;
+    padding-top: 20px;
+    float: right;
+    align-items: right;
+    display: flex;
+  }
+
+  h1{
+    font-size: 50px;
+    margin: 0%;
+    padding-top: 250px;
+    padding-bottom: 60px;
+    color: #1c1c1ca4;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  #videobox{
+    width: 1500px;
+    height: 900px;
+    top: 50%;
+    left: 50%;
+    margin-left: 80px;
+    object-fit: cover;
+    border: 2px;
+    border-radius: 25px;
+  }
+
+  #sale{
+    width: 100%;
+    height: 400px;
+    padding-top: 80px;
+    object-fit: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(115%, 1200%);
+    color: rgb(255, 255, 255);
+    font-family: 'Koulen', sans-serif;
+    width: 100%;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(130%, 1300%);
+    color: rgb(255, 255, 255);
+    font-family: 'Koulen', sans-serif;
+    width: 100%;
+  }
+  
+  .center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(115%, 1650%);
+    color: rgb(255, 255, 255);
+    width: 100%;
+  }
+
+  #shop{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 60px;
+  }
+
+  .shoebox{
+    width: 1680px;
+    height: 100px;
+    padding-top: 100px;
+    margin-top: 0%;
+    display: flex;
+    flex-flow: row;  
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-bottom: 450px;
+    margin-left: -75px;
+  }
+
+  .box1{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+  
+  .box2{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+  
+  .box3{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+
+  .box4{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+    margin-right: 320px;
+  }
+
+  #shoe1{
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(59, 59, 59);
+  }
+  
+  #shoe2{
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(69, 69, 69);
+  }
+  
+  #shoe3{
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(92, 91, 91);
+  }
+
+  #Featured{
+    height:5800px;
+  }
+
+  #Men{
+    height: 3100px;
+    margin:0%;
+    padding-top: 10px;
+  }
+  
+  #Women{
+    height: 3100px;
+    padding-top: 40px;
+    
+  }
+  
+  #Kids{
+    height: 3100px;
+    padding-top: 40px;
+  }
+
+  h2{
+    font-size: 50px;
+    color:#1c1c1c;
+    margin: 0%;
+    font-family: 'Inter Tight', sans-serif;
+  }
+  
+  h3{
+    font-size: 50px;
+    color:#464646c7;
+    margin: 0%;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  h4{
+    margin-top: 300px;
+  }
+  
+  #purchase{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-right: 40px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 50px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  .see_button{
+    width: 1680px;
+    display: flex;
+    justify-content: center;;
+    padding-top: 2000px;
+  }
+  
+  .see1_button{
+    width: 1680px;
+    display: flex;
+    justify-content: center;;
+    padding-top: 3500px;
+  }
+
+  #see_more{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-right: 50px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+}
+
+@media only screen and (max-width: 376px) and (min-width: 322px) {
+  .container{
+    width: 1500px;
+  }
+
+  .nav-link > a {
+    float: left;
+    display: block;
+    color: #1c1c1c;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background: rgb(184, 184, 184);
+    position: fixed;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #nike{
+    height: 110px;
+    width: 180px;
+    padding-left: 478px;
+    float: right;
+    align-items: right;
+    display: flex;
+  }
+
+  h1{
+    font-size: 50px;
+    margin: 0%;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    color: #1c1c1ca4;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  #videobox{
+    width: 1400px;
+    height: 900px;
+    top: 50%;
+    left: 50%;
+    margin-left: 50px;
+    object-fit: cover;
+    border: 2px;
+    border-radius: 25px;
+  }
+
+  #sale{
+    width: 100%;
+    height: 400px;
+    padding-top: 80px;
+    object-fit: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(115%, 1250%);
+    color: rgb(255, 255, 255);
+    font-family: 'Koulen', sans-serif;
+    width: 100%;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(130%, 1350%);
+    color: rgb(255, 255, 255);
+    font-family: 'Koulen', sans-serif;
+    width: 100%;
+  }
+  
+  .center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(115%, 1700%);
+    color: rgb(255, 255, 255);
+    width: 100%;
+  }
+
+  #shop{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 60px;
+  }
+
+  .shoebox{
+    width: 1680px;
+    height: 100px;
+    padding-top: 100px;
+    margin-top: 0%;
+    display: flex;
+    flex-flow: row;  
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-bottom: 450px;
+    margin-left: -160px;
+  }
+
+  .box1{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+  
+  .box2{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+  
+  .box3{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+
+  .box4{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+    margin-right: 320px;
+  }
+
+  #shoe1{
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(59, 59, 59);
+  }
+  
+  #shoe2{
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(69, 69, 69);
+  }
+  
+  #shoe3{
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(92, 91, 91);
+  }
+
+  #Featured{
+    height:5800px;
+  }
+
+  #Men{
+    height: 3100px;
+    margin:0%;
+    padding-top: 60px;
+  }
+  
+  #Women{
+    height: 3100px;
+    padding-top: 40px;
+  }
+  
+  #Kids{
+    height: 3100px;
+    padding-top: 40px;
+  }
+
+  h2{
+    font-size: 50px;
+    color:#1c1c1c;
+    margin: 0%;
+    font-family: 'Inter Tight', sans-serif;
+  }
+  
+  h3{
+    font-size: 50px;
+    color:#464646c7;
+    margin: 0%;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  h4{
+    margin-top: 300px;
+  }
+  
+  #purchase{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-right: 40px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 50px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  .see_button{
+    width: 1500px;
+    display: flex;
+    justify-content: center;;
+    padding-top: 2000px;
+  }
+  
+  .see1_button{
+    width: 1500px;
+    display: flex;
+    justify-content: center;;
+    padding-top: 3500px;
+  }
+
+  #see_more{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-right: 50px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+}
+
+@media only screen and (max-width: 321px) and (min-width: 200px) {
+  .container{
+    width: 1300px;
+  }
+
+  .nav-link > a {
+    float: left;
+    display: block;
+    color: #1c1c1c;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 55px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background: rgb(184, 184, 184);
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #nike{
+    height: 110px;
+    width: 180px;
+    padding-left: 310px;
+    float: right;
+    align-items: right;
+    display: flex;
+  }
+
+  h1{
+    font-size: 40px;
+    margin: 0%;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    color: #1c1c1ca4;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  #videobox{
+    width: 1200px;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    margin-left: 40px;
+    object-fit: cover;
+    border: 2px;
+    border-radius: 25px;
+  }
+
+  #sale{
+    width: 100%;
+    height: 250px;
+    padding-top: 80px;
+    object-fit: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(90%, 1220%);
+    color: rgb(255, 255, 255);
+    font-family: 'Koulen', sans-serif;
+    width: 400px;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(130%, 1290%);
+    color: rgb(255, 255, 255);
+    font-family: 'Koulen', sans-serif;
+    width: 100%;
+  }
+  
+  .center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(93%, 1850%);
+    color: rgb(255, 255, 255);
+    width: 400px;
+  }
+
+  #shop{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 50px;
+  }
+
+  .shoebox{
+    width: 1400px;
+    height: 100px;
+    padding-top: 100px;
+    margin-top: 0%;
+    display: flex;
+    flex-flow: row;  
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-bottom: 450px;
+    margin-left: -160px;
+  }
+
+  .box1{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+  
+  .box2{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+  
+  .box3{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+
+  .box4{
+    width: 40%;
+    height: 600px;
+    margin-bottom: 200px;
+    margin-right: 300px;
+  }
+
+  #shoe1{
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(59, 59, 59);
+  }
+  
+  #shoe2{
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(69, 69, 69);
+  }
+  
+  #shoe3{
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    border: 2px;
+    background-color: rgb(92, 91, 91);
+  }
+
+  #Featured{
+    height:5800px;
+  }
+
+  #Men{
+    height: 3100px;
+    margin:0%;
+    padding-top: 60px;
+  }
+  
+  #Women{
+    height: 3100px;
+    padding-top: 40px;
+  }
+  
+  #Kids{
+    height: 3100px;
+    padding-top: 40px;
+  }
+
+  h2{
+    font-size: 50px;
+    color:#1c1c1c;
+    margin: 0%;
+    font-family: 'Inter Tight', sans-serif;
+  }
+  
+  h3{
+    font-size: 50px;
+    color:#464646c7;
+    margin: 0%;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  h4{
+    margin-top: 300px;
+  }
+  
+  #purchase{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-right: 40px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 50px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+
+  .see_button{
+    width: 1400px;
+    display: flex;
+    justify-content: center;;
+    padding-top: 2000px;
+  }
+  
+  .see1_button{
+    width: 1400px;
+    display: flex;
+    justify-content: center;;
+    padding-top: 3500px;
+  }
+
+  #see_more{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-right: 50px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+}
